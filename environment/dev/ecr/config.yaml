@@ -1,0 +1,9 @@
+common:
+  project_name_prefix: "Heartbeat"
+  project: "Dhadkan"
+  name_prefix: "dhk"
+  tags:
+    "Feature": "core-service"
+    "Project": "Dhadkan"
+    "Owner": "shivamsaini00300@gmial.com"
+    "Environment": "demo"
