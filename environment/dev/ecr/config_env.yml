@@ -1,0 +1,20 @@
+workspace:
+  aws:
+    account_id: 123456789012   # AWS ID
+    role: ""
+
+  common:
+    environment: "${env}"
+    tags:
+      "Module": "ECS/ECR"
+      "Feature": "core-service"
+      "Project": "Dhadkan"
+      "Owner": "shivamsaini00300@gmail.com"
+      "Environment": "${env}"
+
+  ecr:
+    names:
+      be:
+        all_image_expire_count: 45
+        untagged_image_expire_count: 1
+        scan_on_push: true
